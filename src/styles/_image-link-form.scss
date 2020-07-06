@@ -1,0 +1,43 @@
+.image-link-form{
+    margin-right: auto; 
+    margin-left: auto;
+
+    .form{
+        border-radius: .5rem;
+        box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .2 );
+        padding: 2rem;
+        width: 700px;
+        background:
+        radial-gradient(black 3px, transparent 4px),
+        radial-gradient(black 3px, transparent 4px),
+        linear-gradient(#fff 4px, transparent 0),
+        linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
+        linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
+        #fff;
+        background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+        background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+
+        .input{
+            width: 70%;
+            padding: .5rem;
+            font-size: 1.25rem;
+        }
+
+        .button{
+            display: inline-block;
+            text-decoration: none;
+            transition: transform .25s ease-out, -webkit-transform .25s ease-out;
+            width: 30%;
+            color: #fff;
+            background-color: #a463f2;
+            padding: .5rem 1rem;
+            font-size: 1.25rem;
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+        }
+
+    }
+}
